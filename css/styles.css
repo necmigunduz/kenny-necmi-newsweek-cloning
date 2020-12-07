@@ -110,8 +110,7 @@ body {
 	color: #000000;
 }
 
-.debate-1::after {
-	content: "vs";
+.vs {
 	width: 100%;
 	color: black;
 	border-bottom: 1px solid black;
@@ -126,4 +125,27 @@ body {
 	border-radius: 50%;
 	text-align: center;
 	margin: 0 auto;
+}
+
+.debate-1 {
+	border-top: 3px solid gray;
+}
+.debate-2 {
+	border-bottom: 3px solid gray;
+}
+.debate-text > h3 {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 21px;
+	color: #000000;
+	padding-top: 12px;
+}
+
+.debate-text > p {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 21px;
+	color: gray;
 }
