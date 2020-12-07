@@ -1,0 +1,43 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.page-head {
+	width: 100%;
+	position: relative;
+	height: 50px;
+	background-color: #f72310;
+}
+
+.svg1 {
+	display: block;
+	width: 132px;
+	height: 24px;
+	position: absolute;
+	top: 10px;
+	z-index: 2;
+	fill: white;
+}
+.nav-tag {
+	padding: 5px;
+	margin: 3px;
+	margin-top: 8px;
+	color: bisque;
+}
+.nav-tag:hover {
+	text-decoration: none;
+	color: bisque;
+}
+.sub {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 5px;
+	text-transform: uppercase;
+	background-color: yellow;
+	border-radius: 24px;
+	text-decoration: none;
+}
