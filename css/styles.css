@@ -6,9 +6,15 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-color: #f4f5f6;
+    color: #333;
+}
+
 .page-head {
 	width: 100%;
-	position: relative;
+	position: sticky;
+	top: 0;
 	height: 50px;
 	background-color: #f72310;
 }
@@ -46,14 +52,78 @@
 
 /* Images */ 
 
-#top-img {
-	position: relative;
-	text-align: center;
-	color: white;
+.top-story {
+	width: 100%;
+	height: auto;
 }
 
+#top-img {
+	position: relative;
+	width: 100%;
+	height: auto;
+	color: white;
+}
+.img {
+	width: 100%;
+	display: block;
+}
 #bottom-left {
 	position: absolute;
-	bottom: 8px;
-	left: 16px;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+	background-color: #ececed;
+	color: #f72310;
+}
+.top-story-head {
+	color: #a8a0a0;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 16px;
+}
+.top-story-head-1 {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #000000;
+}
+.top-story-para {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #333333;
+}
+
+.underlist {
+	border-top: 1px solid rgb(217, 217,217);
+	padding: 10px 0;
+}
+.underlist-tag {
+	text-decoration: none;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 20px;
+	color: #000000;
+}
+
+.debate-1::after {
+	content: "vs";
+	width: 100%;
+	color: black;
+	border-bottom: 1px solid black;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 32px;
+	color: #d6d6d6;
+	background-color: black;
+	width: 30px;
+	height: 5px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 0 auto;
 }
