@@ -1,7 +1,123 @@
 /* Import Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
-/* Top Nav-Bar */
+/* Top Nav-Bar for Desktop */
+.nav-top {
+	height: 85px;
+}
+
+.n-top {
+	align-items: center;
+	padding: 5% 0;
+	background-color: #FF0500;
+} 
+
+.sub-button-top {
+	margin-bottom: 40px;
+	height: 50px;
+	width: 95%;
+}
+.subs-btn {
+	font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 5px;
+    text-transform: uppercase;
+    background-color: yellow;
+    border-radius: 24px;
+	text-decoration: none;
+	height: 30px;
+	margin-top: 10px;
+}
+
+.log-btn {
+	font-weight: 700;
+}
+
+.date {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	line-height: 34px;
+	color: #ffffff;
+	font-weight: 400;	
+	margin-bottom: 40px;
+}
+
+.weather {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
+	line-height: 34px;
+	color: #ffffff;
+
+}
+
+.mid-nav > img {
+	width: 450px;
+	margin-bottom: 45px;
+}
+
+.lists {
+	background-color: white;
+	width: 98%;
+	margin: 0 auto;
+	height: 80%;
+}
+
+.lists::after {
+	display: block;
+	position: absolute;
+	content: "";
+    background-color: #d9d9d9;
+	top: 50%;
+	height: 1px;
+    left: 0;
+    right: 0;
+}
+
+.lists::before {
+	display: block;
+	position: absolute;
+	content: "";
+    background-color: #d9d9d9;
+	top: 50%;
+	height: 1px;
+    left: 0;
+    right: 0;
+}
+
+.nav-list-1 {
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 19px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+.nav-list-1 > li {
+	list-style-type: none;
+	border-right: 1px solid lightgray;
+	padding-right: 15px;
+}
+
+.nav-list-2 {
+	color: gray;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 16px;
+	padding-top: 8px;
+}
+
+.nav-list-2 > li {
+	list-style-type: none;
+	padding: 5px;
+}
+
+
+
+
+/* Top Nav-Bar for Mobile */
 
 * {
 	padding: 0;
