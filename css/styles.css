@@ -10,7 +10,7 @@
 }
 
 body {
-	background-color: #ffffff;
+	background-color:#F4F5F7;
 }
 
 .page-head {
@@ -64,6 +64,7 @@ body {
 .top-story {
 	width: 100%;
 	height: auto;
+	background-color: white;
 }
 
 #top-img {
@@ -72,10 +73,23 @@ body {
 	height: auto;
 	color: white;
 }
+
+.featured-stories {
+	background-color: white;
+}
+
+
+
+.debate {
+	background-color: white;
+}
+
+
 .img {
 	width: 100%;
 	display: block;
 }
+
 #bottom-left {
 	position: absolute;
 	bottom: 0;
@@ -201,11 +215,19 @@ ul {
 /* Opinion */
 
 .opinion {
-	height: 300px;
+	height: auto;
 	padding-top: 2px;
-    padding-bottom: 2px;
+	padding-bottom: 2px;
+	background-color: white;
 }
 
+.opinion > h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 700;
+	color: rgb(3,3,3,0,4) 
+}
 .opinion-text > h3 {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 17px;
@@ -221,4 +243,13 @@ ul {
 	font-weight: 700;
 	line-height: 21px;
 	color: gray;
+}
+
+.opinion-item {
+	border-bottom: 1px solid #ddd;
+}
+
+/* More Stories */
+.more {
+	background-color: white;
 }
