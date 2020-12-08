@@ -316,3 +316,26 @@ ul {
 	left: 50px;
 	z-index: 2;
 }
+
+/* Newsletter */ 
+
+.newletter-img {
+	width: 50%;
+	object-fit: cover;
+}
+
+.btn-nl {
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: bold;
+	font-family: "Roboto Condensed",sans-serif;
+	font-size: 20px;
+	width: 205px;
+}
+
+.rs-nl-c {
+	width: 130%;
+	height: 76.5%;
+	border: 1px solid lightgray;
+}
