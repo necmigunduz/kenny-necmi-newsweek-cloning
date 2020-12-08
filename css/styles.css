@@ -253,3 +253,25 @@ ul {
 .more {
 	background-color: white;
 }
+.more-stories {
+	width: 100%;
+}
+.more-text > h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 17px;
+	line-height: 20px;
+}
+.more-text > p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #333;
+}
+.info-p {
+	font-family: 'Roboto Condensed', sans-serif;	
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 21px;
+	color: gray;
+}
