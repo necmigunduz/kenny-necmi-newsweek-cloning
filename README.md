@@ -4,7 +4,7 @@
 
 This is a new york times cloned website
 
-![nytclone](https://user-images.githubusercontent.com/53356820/101659234-22bf0d80-3a46-11eb-94f6-c96a2ebee057.png)
+![nwclone](https://user-images.githubusercontent.com/53356820/101659234-22bf0d80-3a46-11eb-94f6-c96a2ebee057.png)
 
 Additional description about the project and its features.
 
