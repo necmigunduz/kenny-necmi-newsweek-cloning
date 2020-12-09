@@ -10,7 +10,7 @@
 .n-top {
 	align-items: center;
 	padding: 5% 0;
-	background-color: #FF0500;
+  background-color: #f72210;
 } 
 
 .sub-button-top {
@@ -51,10 +51,16 @@
 	line-height: 34px;
 	color: #ffffff;
 }
+.mid-nav {
+  left: 35%;
+  top: 20px;
+  z-index: 3;
 
-.mid-nav > img {
-	width: 450px;
-	margin-bottom: 45px;
+}
+.svg2 {
+  fill: white;
+  width: 365px;
+  height: 60px;
 }
 
 .list1 .list2 {
