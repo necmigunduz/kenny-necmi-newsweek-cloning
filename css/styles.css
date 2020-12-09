@@ -394,6 +394,7 @@ ul {
 .myturn {
 	background-color: white;
 }
+
 .info-myturn {
 	font-family: 'Roboto Condensed', sans-serif;	
 	font-size: 16px;
@@ -407,6 +408,7 @@ ul {
 .signup {
 	max-width: 300px;
 }
+
 .icon-n {
 	background: url("https://g.newsweek.com/www/images/logo-n1.svg") center/contain no-repeat #f72210;
 	width: 30px;
@@ -454,4 +456,79 @@ ul {
 	width: 130%;
 	height: 76.5%;
 	border: 1px solid lightgray;
+}
+
+/* Footer */
+
+footer {
+	padding-right: 30px;
+	margin-top: 20px;
+	width: 100%;
+	background-color: white;
+}
+
+.footer-top {
+	border-bottom: 1px solid lightgray;
+	padding: 5px 0;
+	justify-content: space-between;
+}
+
+.logo-footer > img {
+	height: 45px;
+	object-fit: cover;
+}
+
+.logo-footer > p {
+	padding-top: 33px;
+	padding-left: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 12px;
+	color: #666666;
+	font-weight: 400;
+}
+.socials {
+	justify-content: flex-end;
+	height: 100%;
+}
+
+.socials > li {
+	font-size: 14px;
+}
+
+.foot-i {
+	padding-top: 33px;
+	padding-right: 30px;
+}
+
+.footer-bottom {
+	padding-top: 10px;
+}
+
+.editions {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height-step: 15px;
+	color: #000000;
+	text-decoration: none;
+	justify-content: flex-start;
+}
+
+.editions > li {
+	padding-right: 0 10px;
+
+}
+
+.footer-info {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height-step: 15px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.footer-info > li {
+	padding-right: 10px;
 }
