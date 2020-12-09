@@ -55,7 +55,7 @@
   color: #fff;
 }
 
-.mid-nav>img {
+.mid-nav > img {
   width: 450px;
   margin-bottom: 45px;
 }
@@ -73,7 +73,7 @@
   line-height: 24px;
 }
 
-.nav-list-1>li {
+.nav-list-1 > li {
   list-style-type: none;
   border-right: 1px solid lightgray;
   padding-right: 15px;
@@ -88,7 +88,7 @@
   padding-top: 8px;
 }
 
-.nav-list-2>li {
+.nav-list-2 > li {
   list-style-type: none;
   padding: 5px;
 }
@@ -189,7 +189,7 @@ body {
   color: #f72310;
 }
 
-.bottom-left>h2 {
+.bottom-left > h2 {
   font-size: 17px;
   font-weight: 700;
   line-height: 16px;
@@ -238,7 +238,7 @@ body {
   height: 300px;
 }
 
-.debate-text>h3 {
+.debate-text > h3 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 17px;
   font-weight: 700;
@@ -246,7 +246,7 @@ body {
   color: #000;
 }
 
-.debate-text>p {
+.debate-text > p {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 17px;
   font-weight: 700;
@@ -257,7 +257,6 @@ body {
 .debate-item1 {
   border-top: 4px solid #d9d9d9;
 }
-
 
 /* Decoration in debate */
 .decoration {
@@ -310,14 +309,14 @@ body {
   background-color: white;
 }
 
-.opinion>h2 {
+.opinion > h2 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
 }
 
-.opinion-text>h3 {
+.opinion-text > h3 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 17px;
   font-weight: 700;
@@ -326,7 +325,7 @@ body {
   padding-top: 12px;
 }
 
-.opinion-text>p {
+.opinion-text > p {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 17px;
   font-weight: 700;
@@ -347,13 +346,13 @@ body {
   width: 100%;
 }
 
-.more-text>h3 {
+.more-text > h3 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 17px;
   line-height: 20px;
 }
 
-.more-text>p {
+.more-text > p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   font-weight: 400;
@@ -380,7 +379,8 @@ body {
 }
 
 .icon-n {
-  background: url("https://g.newsweek.com/www/images/logo-n1.svg") center/contain no-repeat #f72210;
+  background: url("https://g.newsweek.com/www/images/logo-n1.svg")
+    center/contain no-repeat #f72210;
   width: 30px;
   height: 29px;
   display: block;
@@ -442,7 +442,8 @@ body {
   width: 220px;
 }
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+}
 
 @media (min-width: 992px) {
   .page-head {
