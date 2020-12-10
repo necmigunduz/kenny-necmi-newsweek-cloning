@@ -24,9 +24,9 @@
     <link rel="stylesheet" href="../kenny-necmi-newsweek-cloning/css/reset.css">
     <title>Kenny-Necmi-Newsweek-Cloning</title>
   </head>
-  <body>
-    <main class="main mx-4">
-    <div class="nav-top">
+  <body class="bg-light">
+    <main class="main mx-lg-3 ">
+    <div class="nav-top d-none d-lg-block mb-lg-5">
       <div class="col-12 n-top d-flex justify-content-between">
         <div class="col-2">
           <div class="weather-container">
@@ -38,14 +38,14 @@
           </div>
         </div>
         <div class="col-6 mid-nav h-2 w-auto">
-          <img src="./images/Newsweek_Logo.svg.png" alt="">
+          <img src="./images/Newsweek_Logo.svg.png" alt="" class="ml-5">
         </div>
-        <div class="col-2 flex-xs-6 flex-xs d-flex sub-button-top">
-          <button type="button" class="btn text-white log-btn">LOGIN</button>
-          <button type="button" class="btn btn-warning text-black font-weight-bold subs-btn">SUBSCRIBE> </button>
+        <div class="col-2 d-flex sub-button-top">
+          <button type="button" class="btn text-white font-weight-bold">LOGIN</button>
+          <button type="button" class="btn btn-warning text-black font-weight-bold subs-btn">SUBSCRIBE > </button>
         </div>
       </div>
-      <div class="col-12 lists border-bottom">
+      <div class="col-12 lists w-100 bg-white border-bottom">
         <ul class="container col-12 d-flex row justify-content-between py-2 ml-1 nav-list-1 list-style-none font-weight-bold">
           <li>U.S.</li>
           <li>World</li>
@@ -70,7 +70,7 @@
         </ul>
       </div>
     </div>
-    <header class="page-head">
+    <header class="page-head w-100 d-lg-none sticky-top">
       <div class="container-fluid position-relative">
         <nav class="row justify-content-between">
           <div class="col-sm-6">
@@ -108,10 +108,10 @@
       </div>
     </header>
 
-      <section class="section pt-2">
-        <div class="container-fluid mt-2">
+      <section class="section pt-2 w-100 bg-white mt-sm-0 mt-md-0 mt-lg-5">
+        <div class="container-fluid mt-lg-5">
         <div class="row">
-          <div class="container-fluid d-lg-none">
+          <div class="container-fluid d-md-none">
             <h2 class="top-story-head mt-4 mt-md-5 mb-2">TOP STORY</h2>
                 <div class="row">
     
@@ -160,12 +160,11 @@
           </div>
           </div>
           </div>
-              <div class="top-story">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="top-story">
+
+                  <div class="col-12">
+                    <div class="card border-0 w-100">
                         <div class="top-img">
-                          <img src="./images/all-features-3.jpg" alt="" class="img">
+                          <img src="./images/all-features-3.jpg" alt="" class="img card-img-top img-fluid">
                           <div class="bottom-left"><h2>POLITICS</h2></div>               
                         </div>
                         <h1 class="h2 top-story-head-1 mt-3">More Americans Could Die of COVID Today than Were Killed at Pearl Harbor</h1>
@@ -177,8 +176,6 @@
                         </ul>
                       </div>
                   </div>
-                </div>
-              </div>
               <div class="col-12">
           <div class="card border-0 w-100">
           <div class="top-img">
@@ -265,7 +262,7 @@
           </div>
           <!--myturn-->
           <div class="myturn">
-            <h2 class="top-story-head mt-4 mb-2 pb-2 pl-3 pt-2">my turn</h2>
+            <h2 class="top-story-head mt-4 mb-2 pb-2 pt-2">my turn</h2>
             <div class="row">
               <div class="col-12 col-md-4">
               <div><img src="./images/myturn-1.jpg" alt="" class="w-100 m-0 p-0"></div>            
@@ -293,7 +290,7 @@
             <div class="row">
               <div class="col-12 col-md-4">
               <div class="top-img">
-                <img src="./images/myturn-6.jpg" alt="" class="img">
+                <img src="./images/myturn-6.jpg" alt="" class="w-100">
                 <div class="bottom-left"><h2>PETS</h2></div>               
               </div>
               <div class="p-0 m-0 pt-3">
@@ -302,7 +299,7 @@
               </div>
               <div class="col-12 col-md-4">
               <div class="top-img">
-                <img src="./images/myturn-6.jpg" alt="" class="img">
+                <img src="./images/myturn-6.jpg" alt="" class="w-100">
                 <div class="bottom-left"><h2>PETS</h2></div>               
               </div>
               <div class="p-0 m-0 pt-3">
@@ -311,7 +308,7 @@
               </div>
               <div class="col-12 col-md-4">
               <div class="top-img">
-                <img src="./images/myturn-6.jpg" alt="" class="img">
+                <img src="./images/myturn-6.jpg" alt="" class="w-100">
                 <div class="bottom-left"><h2>PETS</h2></div>               
               </div>
               <div class="p-0 m-0 pt-3">
@@ -324,114 +321,116 @@
             <!--more stories-->
             <div class="more">
             <h2 class="top-story-head mt-4 mb-2 pb-2">more stories</h2>
-            <div class="row border-top pt-2 more-stories">
-              <div class="col-3">
-              <img src="./images/more-1.jpg" alt="" class="p-2">
-              </div>
-              <div class="col-9 p-1 more-text">
+            <div class="border-top py-3 more-stories">
+              <div class="container-fluid mb-4">
+              <img src="./images/more-1.jpg" alt="" class="float-left mr-3">
+              <div class="more-text">
               <h3 class="h5 font-weight-bold">Biden Faces Inauguration During Worst of America's COVID Pandemic</h3>
               <p>U.S. COVID-19 numbers are getting worse by the week and total deaths are projected to surpass 300,000 by the end of December before President-elect Joe Biden takes office.</p>
               </div>
             </div>
-            <div class="row border-top pt-2 more-stories">
-              <div class="col-3">
-              <img src="./images/more-1.jpg" alt="" class="p-2">
-              </div>
-              <div class="col-9 p-1 more-text">
+            </div>
+            <div class="border-top py-3 more-stories d-block">
+              <div class="container-fluid mb-4">
+              <img src="./images/more-1.jpg" alt="" class="float-left mr-3">
+              <div class="more-text">
               <h3 class="h5 font-weight-bold">Biden Faces Inauguration During Worst of America's COVID Pandemic</h3>
               <p>U.S. COVID-19 numbers are getting worse by the week and total deaths are projected to surpass 300,000 by the end of December before President-elect Joe Biden takes office.</p>
               </div>
             </div>
-            <div class="row border-top pt-2 more-stories">
-              <div class="col-3">
-              <img src="./images/more-1.jpg" alt="" class="p-2">
-              </div>
-              <div class="col-9 p-1 more-text">
+            </div>
+            <div class="border-top py-3 more-stories d-block">
+              <div class="container-fluid mb-4">
+              <img src="./images/more-1.jpg" alt="" class="float-left mr-3">
+              <div class="more-text">
               <h3 class="h5 font-weight-bold">Biden Faces Inauguration During Worst of America's COVID Pandemic</h3>
               <p>U.S. COVID-19 numbers are getting worse by the week and total deaths are projected to surpass 300,000 by the end of December before President-elect Joe Biden takes office.</p>
               </div>
             </div>
-            <div class="row border-top pt-2 more-stories">
-              <div class="col-3">
-              <img src="./images/more-1.jpg" alt="" class="p-2">
-              </div>
-              <div class="col-9 p-1 more-text">
+            </div>
+            <div class="border-top py-3 more-stories d-block">
+              <div class="container-fluid mb-4">
+              <img src="./images/more-1.jpg" alt="" class="float-left mr-3">
+              <div class="more-text">
               <h3 class="h5 font-weight-bold">Biden Faces Inauguration During Worst of America's COVID Pandemic</h3>
               <p>U.S. COVID-19 numbers are getting worse by the week and total deaths are projected to surpass 300,000 by the end of December before President-elect Joe Biden takes office.</p>
               </div>
             </div>
-            <div class="row border-top pt-2 more-stories">
-              <div class="col-3">
-              <img src="./images/more-1.jpg" alt="" class="p-2">
-              </div>
-              <div class="col-9 p-1 more-text">
+            </div>
+            <div class="border-top py-3 more-stories d-block">
+              <div class="container-fluid mb-4">
+              <img src="./images/more-1.jpg" alt="" class="float-left mr-3">
+              <div class="more-text">
               <h3 class="h5 font-weight-bold">Biden Faces Inauguration During Worst of America's COVID Pandemic</h3>
               <p>U.S. COVID-19 numbers are getting worse by the week and total deaths are projected to surpass 300,000 by the end of December before President-elect Joe Biden takes office.</p>
               </div>
             </div>
-            <div class="row border-top pt-2 more-stories">
-              <div class="col-3">
-              <img src="./images/more-1.jpg" alt="" class="p-2">
-              </div>
-              <div class="col-9 p-1 more-text">
+            </div>
+            <div class="border-top py-3 more-stories d-block">
+              <div class="container-fluid mb-4">
+              <img src="./images/more-1.jpg" alt="" class="float-left mr-3">
+              <div class="more-text">
               <h3 class="h5 font-weight-bold">Biden Faces Inauguration During Worst of America's COVID Pandemic</h3>
               <p>U.S. COVID-19 numbers are getting worse by the week and total deaths are projected to surpass 300,000 by the end of December before President-elect Joe Biden takes office.</p>
               </div>
             </div>
-            <div class="row border-top pt-2 more-stories">
-              <div class="col-3">
-              <img src="./images/more-1.jpg" alt="" class="p-2">
-              </div>
-              <div class="col-9 p-1 more-text">
+            </div>
+            <div class="border-top py-3 more-stories d-block">
+              <div class="container-fluid mb-4">
+              <img src="./images/more-1.jpg" alt="" class="float-left mr-3">
+              <div class="more-text">
               <h3 class="h5 font-weight-bold">Biden Faces Inauguration During Worst of America's COVID Pandemic</h3>
               <p>U.S. COVID-19 numbers are getting worse by the week and total deaths are projected to surpass 300,000 by the end of December before President-elect Joe Biden takes office.</p>
               </div>
             </div>
-            <div class="row border-top pt-2 more-stories">
-              <div class="col-3">
-              <img src="./images/more-1.jpg" alt="" class="p-2">
-              </div>
-              <div class="col-9 p-1 more-text">
+            </div>
+            <div class="border-top py-3 more-stories d-block">
+              <div class="container-fluid mb-4">
+              <img src="./images/more-1.jpg" alt="" class="float-left mr-3">
+              <div class="more-text">
               <h3 class="h5 font-weight-bold">Biden Faces Inauguration During Worst of America's COVID Pandemic</h3>
               <p>U.S. COVID-19 numbers are getting worse by the week and total deaths are projected to surpass 300,000 by the end of December before President-elect Joe Biden takes office.</p>
               </div>
             </div>
-            <div class="row border-top pt-2 more-stories">
-              <div class="col-3">
-              <img src="./images/more-1.jpg" alt="" class="p-2">
-              </div>
-              <div class="col-9 p-1 more-text">
+            </div>
+            <div class="border-top py-3 more-stories d-block">
+              <div class="container-fluid mb-4">
+              <img src="./images/more-1.jpg" alt="" class="float-left mr-3">
+              <div class="more-text">
               <h3 class="h5 font-weight-bold">Biden Faces Inauguration During Worst of America's COVID Pandemic</h3>
               <p>U.S. COVID-19 numbers are getting worse by the week and total deaths are projected to surpass 300,000 by the end of December before President-elect Joe Biden takes office.</p>
               </div>
             </div>
-            <div class="row border-top pt-2 more-stories">
-              <div class="col-3">
-              <img src="./images/more-1.jpg" alt="" class="p-2">
-              </div>
-              <div class="col-9 p-1 more-text">
+            </div>
+            <div class="border-top py-3 more-stories d-block">
+              <div class="container-fluid mb-4">
+              <img src="./images/more-1.jpg" alt="" class="float-left mr-3">
+              <div class="more-text">
               <h3 class="h5 font-weight-bold">Biden Faces Inauguration During Worst of America's COVID Pandemic</h3>
               <p>U.S. COVID-19 numbers are getting worse by the week and total deaths are projected to surpass 300,000 by the end of December before President-elect Joe Biden takes office.</p>
               </div>
             </div>
-            <div class="row border-top pt-2 more-stories">
-              <div class="col-3">
-              <img src="./images/more-1.jpg" alt="" class="p-2">
-              </div>
-              <div class="col-9 p-1 more-text">
+            </div>
+            <div class="border-top py-3 more-stories d-block">
+              <div class="container-fluid mb-4">
+              <img src="./images/more-1.jpg" alt="" class="float-left mr-3">
+              <div class="more-text">
               <h3 class="h5 font-weight-bold">Biden Faces Inauguration During Worst of America's COVID Pandemic</h3>
               <p>U.S. COVID-19 numbers are getting worse by the week and total deaths are projected to surpass 300,000 by the end of December before President-elect Joe Biden takes office.</p>
               </div>
             </div>
-            <div class="row border-top pt-2 more-stories">
-              <div class="col-3">
-              <img src="./images/more-1.jpg" alt="" class="p-2">
-              </div>
-              <div class="col-9 p-1 more-text">
+            </div>
+            <div class="border-top py-3 more-stories d-block">
+              <div class="container-fluid mb-4">
+              <img src="./images/more-1.jpg" alt="" class="float-left mr-3">
+              <div class="more-text">
               <h3 class="h5 font-weight-bold">Biden Faces Inauguration During Worst of America's COVID Pandemic</h3>
               <p>U.S. COVID-19 numbers are getting worse by the week and total deaths are projected to surpass 300,000 by the end of December before President-elect Joe Biden takes office.</p>
               </div>
             </div>
+            </div>
+
+            
             </div>
           </div>
     
@@ -465,38 +464,68 @@
             <!--opinion-->
             <div class="opinion">
             <h2 class="top-story-head mt-4 mb-2 pb-2 pl-3">opinion</h2>
-            <div class="row border-top ml-2 mr-2 pt-2">
-              <div class="col-2">
-              <img src="./images/opinion-1.png" alt="opinion-pic" class="">
-              </div>
-              <div class="col-10 p-1 more-text float-right">
+            <div class="border-top d-block pt-2 mb-5">
+              <div class="">
+              <img src="./images/opinion-1.png" alt="opinion-pic" class="float-left mx-3 my-2">
+            </div>
+              <div class="more-text mt-2 mb-0">
               <h3>Biden Says He'll Take on Structural Inequality. You Need to Hold Him to It</h3>
               <p>BY ROBERT REICH</p>
               </div>
             </div>
-            <div class="row border-top ml-2 mr-2 pt-2">
-              <div class="col-2">
-              <img src="./images/opinion-1.png" alt="opinion-pic" class="">
-              </div>
-              <div class="col-10 p-1 more-text">
+            <div class="border-top d-block pt-2 mb-5">
+              <div class="">
+              <img src="./images/opinion-1.png" alt="opinion-pic" class="float-left mx-3 my-2">
+            </div>
+              <div class="more-text mt-2 mb-0">
               <h3>Biden Says He'll Take on Structural Inequality. You Need to Hold Him to It</h3>
               <p>BY ROBERT REICH</p>
               </div>
             </div>
-            <div class="row border-top ml-2 mr-2 pt-2">
-              <div class="col-2">
-              <img src="./images/opinion-1.png" alt="opinion-pic" class="">
-              </div>
-              <div class="col-10 p-1 more-text">
+            <div class="border-top d-block pt-2 mb-5">
+              <div class="">
+              <img src="./images/opinion-1.png" alt="opinion-pic" class="float-left mx-3 my-2">
+            </div>
+              <div class="more-text mt-2 mb-0">
               <h3>Biden Says He'll Take on Structural Inequality. You Need to Hold Him to It</h3>
               <p>BY ROBERT REICH</p>
               </div>
             </div>
+            <div class="border-top d-block pt-2 mb-5">
+              <div class="">
+              <img src="./images/opinion-1.png" alt="opinion-pic" class="float-left mx-3 my-2">
+            </div>
+              <div class="more-text mt-2 mb-0">
+              <h3>Biden Says He'll Take on Structural Inequality. You Need to Hold Him to It</h3>
+              <p>BY ROBERT REICH</p>
+              </div>
+            </div>
+            <div class="border-top d-block pt-2 mb-5">
+              <div class="">
+              <img src="./images/opinion-1.png" alt="opinion-pic" class="float-left mx-3 my-2">
+            </div>
+              <div class="more-text mt-2 mb-0">
+              <h3>Biden Says He'll Take on Structural Inequality. You Need to Hold Him to It</h3>
+              <p>BY ROBERT REICH</p>
+              </div>
+            </div>
+            <div class="border-top d-block pt-2 mb-5">
+              <div class="">
+              <img src="./images/opinion-1.png" alt="opinion-pic" class="float-left mx-3 my-2">
+            </div>
+              <div class="more-text mt-2 mb-0">
+              <h3>Biden Says He'll Take on Structural Inequality. You Need to Hold Him to It</h3>
+              <p>BY ROBERT REICH</p>
+              </div>
+            </div>
+            
+            
+            
             </div>
           <!--sponsored-insight-->
           <div class="sponsored-insight">
             <div class="container">
-              <div class="col-12 my-2">
+              <div class="col-12 my-2 mx-auto">
                 <div class="card">
                   <div class="top-img">
                     <img src="./images/feature-1.jpg" alt="" class="img card-img-top img-fluid">
@@ -585,9 +614,9 @@
       <div class="bottom-div bg-white">
         <article>
         <div class="container-fluid magazine">
-          <div class="d-flex justify-content-center align-item-center">
+          <div class="d-flex justify-content-center align-item-center border-bottom py-2">
             <div class="icon-n"></div>
-            <h5 class="font-weight-bold pt-2">IN THE MAGAZINE</h5>
+            <h5 class="font-weight-bold pt-2 ">IN THE MAGAZINE</h5>
           </div>
           <div class="row">
             <div class="col-12 col-md-3">
@@ -690,11 +719,11 @@
 
         <article>
           <div class="container-fluid magazine">
-            <div class="d-flex justify-content-center align-item-center border-bottom">
+            <div class="d-flex justify-content-center align-item-center border-bottom py-2">
               <div class="icon-n"></div>
               <h5 class="font-weight-bold pt-2">EDITOR'S PICK</h5>
             </div>
-            <div class="row">
+            <div class="row border-bottom">
               <div class="col-12 col-md-6 col-lg-3">
                 <div class="card card-without-border my-3 border-0">
                   <figure>
@@ -812,8 +841,8 @@
         </article>
 
         <article>
-          <div class="container-fluid us ">
-            <h5 class="my-4 font-weight-bold text-danger">U.S</h5>
+          <div class="container-fluid us mb-2">
+            <h5 class="mt-5 mb-3 font-weight-bold text-danger">U.S</h5>
             <div class="row">
               <div class="col-12 col-md-4">
                 <div class="card card-without-border border-0">
@@ -852,7 +881,7 @@
                   <h6 class="px-2 maga-saf">Former Minnesota Gov. Dayton Marries Ex-Campaign Aide 41 Years His Junior</h6>
                 </div>
               </div>
-              <div class="d-flex border-bottom py-3">
+              <div class="d-flex py-3">
                 <div>
                   <img src="./images/us-1.jpg" alt="" class="card-img-top img-fluid">
                 </div>
@@ -866,7 +895,7 @@
         </article>
 
         <article>
-          <div class="container-fluid us ">
+          <div class="container-fluid us border-top">
             <h5 class="my-4 font-weight-bold text-danger">U.S</h5>
             <div class="row">
               <div class="col-12 col-md-4">
@@ -906,7 +935,7 @@
                   <h6 class="px-2 maga-saf">Former Minnesota Gov. Dayton Marries Ex-Campaign Aide 41 Years His Junior</h6>
                 </div>
               </div>
-              <div class="d-flex border-bottom py-3">
+              <div class="d-flex py-3">
                 <div>
                   <img src="./images/us-1.jpg" alt="" class="card-img-top img-fluid">
                 </div>
@@ -920,7 +949,7 @@
         </article>
 
         <article>
-          <div class="container-fluid us ">
+          <div class="container-fluid us border-top">
             <h5 class="my-4 font-weight-bold text-danger">U.S</h5>
             <div class="row">
               <div class="col-12 col-md-4">
@@ -960,7 +989,7 @@
                   <h6 class="px-2 maga-saf">Former Minnesota Gov. Dayton Marries Ex-Campaign Aide 41 Years His Junior</h6>
                 </div>
               </div>
-              <div class="d-flex border-bottom py-3">
+              <div class="d-flex py-3">
                 <div>
                   <img src="./images/us-1.jpg" alt="" class="card-img-top img-fluid">
                 </div>
@@ -974,7 +1003,7 @@
         </article>
 
         <article>
-          <div class="container-fluid us ">
+          <div class="container-fluid us border-top">
             <h5 class="my-4 font-weight-bold text-danger">U.S</h5>
             <div class="row">
               <div class="col-12 col-md-4">
@@ -1014,7 +1043,7 @@
                   <h6 class="px-2 maga-saf">Former Minnesota Gov. Dayton Marries Ex-Campaign Aide 41 Years His Junior</h6>
                 </div>
               </div>
-              <div class="d-flex border-bottom py-3">
+              <div class="d-flex py-3">
                 <div>
                   <img src="./images/us-1.jpg" alt="" class="card-img-top img-fluid">
                 </div>
@@ -1028,7 +1057,7 @@
         </article>
 
         <article>
-          <div class="container-fluid us ">
+          <div class="container-fluid us border-top">
             <h5 class="my-4 font-weight-bold text-danger">U.S</h5>
             <div class="row">
               <div class="col-12 col-md-4">
@@ -1068,7 +1097,7 @@
                   <h6 class="px-2 maga-saf">Former Minnesota Gov. Dayton Marries Ex-Campaign Aide 41 Years His Junior</h6>
                 </div>
               </div>
-              <div class="d-flex border-bottom py-3">
+              <div class="d-flex py-3">
                 <div>
                   <img src="./images/us-1.jpg" alt="" class="card-img-top img-fluid">
                 </div>
@@ -1082,7 +1111,7 @@
         </article>
 
         <article>
-          <div class="container-fluid us ">
+          <div class="container-fluid us border-top">
             <h5 class="my-4 font-weight-bold text-danger">U.S</h5>
             <div class="row">
               <div class="col-12 col-md-4">
@@ -1122,7 +1151,7 @@
                   <h6 class="px-2 maga-saf">Former Minnesota Gov. Dayton Marries Ex-Campaign Aide 41 Years His Junior</h6>
                 </div>
               </div>
-              <div class="d-flex border-bottom py-3">
+              <div class="d-flex py-3">
                 <div>
                   <img src="./images/us-1.jpg" alt="" class="card-img-top img-fluid">
                 </div>
@@ -1138,39 +1167,39 @@
         <article>
           <div class="container">
             <div class="row">
-              <div class="col-8">
+              <div class="col-sm-12 col-lg-8">
               <h5 class="my-4 font-weight-bold text-danger maga-saf">SUBSCRIBE</h5>
-              <div class="container">
-                <div class="row my-4 bg-light py-3">
-                  <div class="col-4 position-relative">
+              <div class="container-fluid">
+                <div class="row my-4 bg-light py-3 justify-content-center">
+                  <div class="col-lg-4 col-12 position-relative">
                     <img src="./images/subscribe.jpg" alt="" class="img1">
                     <img src="./images/subscribe-2.jpg" alt=".." class="img2">
                   </div>
-                  <div class="col-8 my-5">
+                  <div class="col-lg-8 col-12 my-5">
                     <h6 class="font-weight-bold maga-saf w-100 pl-2">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h6>
                     <p class="my-2 pl-2 w-100">All Access + Weekly Delivery.
                       Choose A Membership That's Perfect for You!                      
                       </p>
-                      <button class="btn btn-primary btn-lg bg-danger text-white font-weight-bold my-3 pl-5 w-100">SUBSCRIBE ></button>
+                      <button class="btn btn-primary btn-lg bg-danger text-white font-weight-bold my-1 w-100">SUBSCRIBE ></button>
                   </div>
                 </div>
               </div>
               </div>
 
-              <div class="col-4">
+              <div class="col-lg-4 col-12">
                 <h5 class="my-4 font-weight-bold text-danger maga-saf">NEWSLETTER</h5>
-                <div class="container row rs-nl-c pl-0 pr-2">
-                  <div class="col-12 col-sm-6 m-0 p-0">
-                    <img src="./images/phone.png" alt="" class="newletter-img w-100 h-100">
+                <div class="container row pl-1">
+                  <div class="col-12 col-lg-6 m-0 p-0">
+                    <img src="./images/phone.png" alt="" class="newletter-img w-100 h-100 img-fluid">
                   </div>
-                  <form class="col-12 col-sm-6">
+                  <form class="col-12 col-lg-6">
                     <div class="form-group">
-                      <h5 class="maga-saf font-weight-bold">THE STARTING 5</h5>
+                      <h5 class="maga-saf font-weight-bold pt-3">THE STARTING 5</h5>
                       <p class="my-2">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
                     </div>
                     <div class="d-flex-column">
-                      <input type="email" placeholder="Email adress" class="form-text w-100">
-                      <button class="btn btn-primary btn-lg bg-danger text-white font-weight-bold my-3 btn-nl w-100" type="submit">FREE SIGN UP</button>
+                      <input type="email" placeholder="Email adress" class="form-text w-100 p-2">
+                      <button class="btn btn-primary bg-danger text-white font-weight-bold my-2 btn-nl w-100" type="submit">FREE SIGN UP</button>
                     </div>
                   </form>
                 </div>
@@ -1255,9 +1284,7 @@
 
   </main>
 
-
-
-    <!--Scripts for Bootstrap--> 
+   <!--Scripts for Bootstrap--> 
     <div>
       <script>
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
