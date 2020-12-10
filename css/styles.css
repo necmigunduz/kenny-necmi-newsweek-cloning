@@ -72,10 +72,6 @@
   padding-right: 15px;
 }
 
-.nav-list-1 > li:hover {
-  color: red;
-}
-
 .nav-list-2 {
   color: gray;
   font-family: "Roboto Condensed", sans-serif;
@@ -86,6 +82,10 @@
 
 .nav-list-2 > li {
   padding: 5px;
+}
+
+.nav-list-1 > li:hover {
+  color: red;
 }
 
 /* Top Nav-Bar for Mobile */
@@ -187,14 +187,13 @@
   font-weight: 400;
   line-height: 18px;
   color: #333;
-  transition-property: line-height font-size;
+  transition-property: font-size;
   transition-duration: 15s;
   transition-delay: 0.5s;
 }
 
 .top-story-para:hover {
   font-size: 25px;
-  line-height: 30px;
 }
 
 .underlist {
@@ -349,8 +348,7 @@ ul {
 }
 
 .icon-n {
-  background: url("https://g.newsweek.com/www/images/logo-n1.svg")
-    center/contain no-repeat #f72210;
+  background: url("https://g.newsweek.com/www/images/logo-n1.svg") center/contain no-repeat #f72210;
   width: 30px;
   height: 29px;
   display: block;
