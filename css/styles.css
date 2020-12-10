@@ -1,5 +1,11 @@
 /* Import Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+/* For scroll */ 
+.sticky {
+  position: sticky;
+  top: 60px;
+}
+
 
 /* Top Nav-Bar for Desktop */
 .nav-top {
@@ -221,6 +227,10 @@
 
 .empty {
   border-bottom: 4px solid #d9d9d9;
+}
+
+ul {
+  list-style-type: none;
 }
 /* Decoration in debate */
 .decoration {
