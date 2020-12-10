@@ -1,6 +1,18 @@
 /* Import Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
 
+/* Transition */
+#trans-img {
+  width: 100%;
+  transition-property: width;
+  transition-duration: 5s;
+  transition-delay: 2s;
+}
+
+#trans-img:hover {
+  width: 50%;
+}
+
 /* Top Nav-Bar for Desktop */
 .nav-top {
   height: 85px;
@@ -49,6 +61,10 @@
   font-family: "Roboto Condensed", sans-serif;
   font-size: 19px;
   line-height: 24px;
+  color: black;
+  transition-property: color;
+  transition-duration: 1s;
+  transition-delay: 1s;
 }
 
 .nav-list-1 > li {
@@ -66,6 +82,10 @@
 
 .nav-list-2 > li {
   padding: 5px;
+}
+
+.nav-list-1 > li:hover {
+  color: red;
 }
 
 /* Top Nav-Bar for Mobile */
@@ -108,6 +128,17 @@
   background-color: yellow;
   border-radius: 24px;
   text-decoration: none;
+}
+
+#login {
+  font-size: 14px;
+  transition-property: font-size;
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+}
+
+#login:hover {
+  font-size: 25px;
 }
 
 /* Body */
@@ -156,6 +187,13 @@
   font-weight: 400;
   line-height: 18px;
   color: #333;
+  transition-property: font-size;
+  transition-duration: 15s;
+  transition-delay: 0.5s;
+}
+
+.top-story-para:hover {
+  font-size: 25px;
 }
 
 .underlist {
