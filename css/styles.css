@@ -4,12 +4,10 @@
 
 /* Top Nav-Bar for Desktop */
 .nav-top {
-  display: none;
   height: 85px;
 }
 
 .n-top {
-  align-items: center;
   padding-top: 5%;
   padding-bottom: 2%;
   height: 80px;
@@ -23,14 +21,9 @@
 
 .subs-btn {
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  font-weight: bold;
   font-size: 13px;
   padding: 5px;
-  text-transform: uppercase;
-  background-color: yellow;
   border-radius: 24px;
-  text-decoration: none;
   height: 30px;
   margin-top: 10px;
 }
@@ -39,8 +32,6 @@
   font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
   line-height: 34px;
-  color: #fff;
-  font-weight: 400;
   margin-bottom: 40px;
 }
 
@@ -48,7 +39,6 @@
   font-family: "Roboto Condensed", sans-serif;
   font-size: 15px;
   line-height: 34px;
-  color: #fff;
 }
 
 .mid-nav > img {
@@ -57,15 +47,12 @@
 }
 
 .nav-list-1 {
-  color: black;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 19px;
-  font-weight: 700;
   line-height: 24px;
 }
 
 .nav-list-1 > li {
-  list-style-type: none;
   border-right: 1px solid lightgray;
   padding-right: 15px;
 }
@@ -74,13 +61,11 @@
   color: gray;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
-  font-weight: 700;
   line-height: 16px;
   padding-top: 8px;
 }
 
 .nav-list-2 > li {
-  list-style-type: none;
   padding: 5px;
 }
 
@@ -94,13 +79,12 @@
 
 .page-head {
   background-color: #f72310;
+  z-index: 99999;
 }
 
 .svg1 {
-  display: block;
   width: 132px;
   height: 24px;
-  position: absolute;
   top: 10px;
   z-index: 3;
   fill: white;
@@ -108,7 +92,6 @@
 
 .nav-tag {
   padding: 5px;
-  margin: 3px;
   margin-top: 8px;
   color: bisque;
 }
@@ -121,10 +104,8 @@
 .sub {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
-  font-weight: bold;
   font-size: 13px;
   padding: 5px;
-  text-transform: uppercase;
   background-color: yellow;
   border-radius: 24px;
   text-decoration: none;
@@ -137,13 +118,9 @@
 
 .top-img {
   position: relative;
-  width: 100%;
-  height: auto;
-  color: white;
 }
 
 .bottom-left {
-  position: absolute;
   bottom: 0;
   left: 0;
   padding: 10px;
